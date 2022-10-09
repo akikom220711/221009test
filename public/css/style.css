@@ -1,0 +1,389 @@
+/*ここからcontact.blade.phpのcss*/
+.all {
+  width:100vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  margin: 0 auto;
+  font-size: 2vw;
+  padding: 3vw;
+}
+
+.contact_table {
+  margin:0 auto;
+}
+
+.contact_th {
+  width: 15vw;
+  height: 7vw;
+  font-size: 1.3vw;
+  text-align: left;
+  vertical-align: top;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.contact_td{
+  width: 50vw;
+  height: 2.5vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.contact_td_example {
+  width: 50vw;
+  height: 1vw;
+  color: grey;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  font-size: 1vw;
+}
+
+.contact_td_error {
+  width: 50vw;
+  height: 2vw;
+  color: red;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.contact_txt_lname {
+  width: 23vw;
+  height: 2.5vw;
+  border-radius: 0.3vw;
+  border: 1px solid gray;
+}
+
+.contact_txt_fname {
+  width: 23vw;
+  height: 2.5vw;
+  border-radius: 0.3vw;
+  margin-left: 1vw;
+  border: 1px solid gray;
+}
+
+.contact_txt_ex_lname {
+  display: inline-block;
+  padding-left: 2vw;
+}
+
+.contact_txt_ex_fname {
+  display: inline-block;
+  padding-left: 20vw;
+}
+
+.contact_radio_m {
+  appearance: none;
+  margin-right: 2vw;
+  position: relative;
+}
+
+.contact_radio_m::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.contact_radio_m:checked::after {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 0.8vw;
+  height: 0.8vw;
+  background-color: black;
+  position: absolute;
+  top: 0.8vw;
+  right: 0.8vw;
+}
+
+.contact_radio_w {
+  appearance: none;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  position: relative;
+}
+
+.contact_radio_w::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.contact_radio_w:checked::after {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 0.8vw;
+  height: 0.8vw;
+  background-color: black;
+  position: absolute;
+  top: 0.8vw;
+  right: 0.8vw;
+}
+
+.contact_radio_label {
+  font-size: 1.3vw;
+  text-align: left;
+  font-weight: bold;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.contact_txt_email {
+  width: 48vw;
+  height: 2.5vw;
+  border-radius: 0.3vw;
+  border: 1px solid gray;
+}
+
+.contact_txt_post {
+  width: 45.5vw;
+  height: 2.5vw;
+  border-radius: 0.3vw;
+  border: 1px solid gray;
+}
+
+.contact_txt_opinion {
+  width: 48vw;
+  height: 10vw;
+  border-radius: 0.3vw;
+  border: 1px solid gray;
+}
+
+.red_text {
+  color: red;
+}
+
+.contact_button {
+  width: 8vw;
+  height: 3vw;
+  display:block;
+  margin:auto;
+  font-size: 1vw;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 0.3vw;
+}
+
+/*ここからconfirm.blade.php*/
+.confirm_td {
+  width: 40vw;
+  height: 2.5vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.link_modify {
+  text-align: center;
+  margin-top: 1vw;
+}
+
+/*ここからthank.blade.php*/
+.thank_all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.thank_txt {
+  font-size: 1.5vw;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  margin-bottom: 2vw;
+}
+
+.thank_button {
+  width: 10vw;
+  height: 3vw;
+  display:block;
+  margin: auto;
+  font-size: 1vw;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 0.3vw;
+}
+
+/*ここからmanage.blade.php*/
+.search_region {
+  width: 90vw;
+  border: 2px solid black;
+  margin: 2vw auto;
+  padding: 2vw;
+}
+
+.search_th_gender {
+  width: 5vw;
+  height: 7vw;
+  font-size: 1.3vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.search_td {
+  width: 20vw;
+  height: 2.5vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.search_td_date {
+  width: 50vw;
+  height: 2.5vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+}
+
+.search_txt {
+  width: 20vw;
+  height: 2.5vw;
+  border-radius: 0.3vw;
+  border: 1px solid gray;
+}
+
+.name_table {
+  display: inline-block;
+}
+
+.gender_table {
+  display: inline-block;
+  margin-left: 4vw;
+}
+
+.pagi_region {
+  width: 95vw;
+  margin: 0 auto;
+  padding: 2vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagi_txt{
+  font-size: 1.3vw;
+}
+
+.result_region {
+  width: 95vw;
+  margin: 0 auto;
+  padding: 2vw 0;
+}
+
+.result_th {
+  width: 10vw;
+  height: 2vw;
+  font-size: 1.3vw;
+  text-align: center;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  border-bottom: 1px solid black;
+}
+
+.result_th_left {
+  width: 20vw;
+  height: 2vw;
+  font-size: 1.3vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  border-bottom: 1px solid black;
+  padding-left: 2vw;
+}
+
+.result_td {
+  width: 10vw;
+  height: 2vw;
+  font-size: 1.3vw;
+  text-align: center;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  padding: 1vw 0;
+}
+
+.result_td_left {
+  width: 20vw;
+  height: 2vw;
+  font-size: 1.3vw;
+  text-align: left;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  padding: 1vw 0 1vw 2vw;
+}
+
+.delete_button {
+  width: 5vw;
+  height: 2vw;
+  font-size: 1vw;
+  font-family: Helvetica, '游ゴシック', sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 0.3vw;
+}
+
+.link_reset {
+  display:block;
+  text-align: center;
+  margin-top: 1vw;
+  font-size: 1vw;
+}
+
+/*ここからポップアップ表示*/
+.popup_parent {
+  position: relative;
+}
+
+.popup_parent:hover .popup_child {
+  display: inline;
+}
+
+.popup_child {
+  position: absolute;
+  display: none;
+  padding: 2px;
+  background-color: white;
+  border: 1px solid gray;
+  width: 20vw;
+  left: 30%;
+  top: 50%;
+  font-size: 1.5vw;
+  z-index:3;
+}
+
+/*ここからペジネーション*/
+.pagi_all {
+  display: flex;
+  justify-content: center;
+}
+
+.pagi_item {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 0.5vw;
+  color: black;
+  font-size: 0.7vw;
+  font-weight: bold;
+  background-color: white;
+}
+
+.pagi_active {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 0.5vw;
+  color: white;
+  font-size: 0.7vw;
+  font-weight: bold;
+  background-color: black;
+}
+
+.pagi_a {
+  color: black;
+  text-decoration: none;
+}
